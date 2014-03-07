@@ -1,0 +1,225 @@
+/* ================================================= */
+/* TYPOGRAPHY SETTINGS                               */
+/* ================================================= */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@heavy: 900;@extrabold: 800;@bold: 700;@semibold: 600;@medium: 500;@regular: 400;@light: 300;@thin: 200;@paper: 100;
+
+.font { font-family: 'Open Sans',  Helvetica, Verdana, Arial, sans-serif; }
+.heading { font-family: 'Varela Round', sans-serif; }
+
+/*=Heading Styles
+================================================== */
+h1, h2, h3, h4, h5, h6 { 
+	.heading;
+	line-height: 100%;
+	font-weight: @light;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	.heading;
+	line-height: 175%;
+}
+
+h1, a h1 {
+	font-size: 3.157em;
+}
+h2, a h2 {
+	font-size: 1.777rem;
+}
+h3, a h3 {
+	font-size: 1.418rem;
+}
+h4, a h4 {
+	font-size: 1.218rem;
+}
+h5, a h5 {
+	font-size: 1.118rem;
+}
+h6, a h6 {
+	font-size: 1.067rem;
+}
+
+/*=Font Size Adjustments
+================================================== */
+article {
+	font-size: 100%;
+}
+aside {
+	h1, a h1 {
+		font-size: ;
+	}
+	h2, a h2 {
+		font-size: 1.777em;
+		color: @color1;
+	}
+	h3, a h3 {
+		font-size: 1.777em;
+	}
+	h4, a h4 {
+		font-size: 1.333em;
+		display: block;
+		border-bottom: 1px solid darken(@offwhite, 10%);
+		color: @color2;
+	}
+	h5, a h5 {
+		font-size: 1.777em;
+	}
+	h6, a h6 {
+		font-size: 1.333em;
+	}
+	p, ul, ol, blockquote {
+		font-size: 0.8em;
+		color: @grey;
+	}
+	ul.check {
+		list-style: none;
+		margin-bottom: 2em;
+		li {
+			border-bottom: 1px solid darken(@offwhite, 10%);
+			.padding-vert(1em);
+			color: @offblack;
+		}
+		i {
+			color: @black;
+			margin-right: 0.75em;
+		}
+	}
+}
+
+/*=Paragraph Styles
+================================================== */
+p, span {
+	.font;
+	font-weight: @light;
+	font-size: 0.9em;
+	line-height: 150%;
+	padding-bottom: 1.777em;
+}
+
+
+/*=Link Styles
+================================================== */
+a {
+	text-decoration: none;
+	cursor: pointer;
+	.transition;
+}
+
+/*=Button
+================================================== */
+
+.button(@color, @text: #ffffff) {
+	display: inline-block;
+	background: @color;
+	color: @text;
+	font-weight: @light;
+	padding: 0.7em 1.2em;
+	.radius(0.3em);
+	.margin-vert(2em);
+	&:hover {
+		background: darken(@color, 20%);
+	}
+}
+
+a.button, button.button {
+	.button(@color3);
+}
+
+/*=List Styles
+================================================== */
+
+ul, ol, li {
+	margin: 0;
+}
+
+
+/*=Blockquote Styles
+================================================== */
+blockquote {
+	.margin-vert(2em);
+	.padding-vert(0.5em);
+	padding-left: 1em;
+	border-left: 3px solid @color2;
+	line-height: 150%;
+	font-weight: @light;
+	span {
+		display: block;
+		text-align: right;
+		margin-top: 1em;
+		margin-bottom: -2em;
+		font-style: italic;
+		color: @color3;
+		&::before {
+			content: "—  ";
+		}
+	}
+}
+
+/*=Icons
+================================================== */
+.font-import('bivee-icons');
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'bivee-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-reorder:before {
+	content: "\e600";
+}
+.icon-linkedin:before {
+	content: "\e601";
+}
+.icon-facebook:before {
+	content: "\e602";
+}
+.icon-twitter:before {
+	content: "\e603";
+}
+.icon-pinterest:before {
+	content: "\e604";
+}
+.icon-github:before {
+	content: "\e605";
+}
+.icon-ok-check:before {
+	content: "\e606";
+}
+.icon-search:before {
+	content: "\e60f";
+}
+.icon-behance:before {
+	content: "\e607";
+}
+.icon-instagram:before {
+	content: "\e608";
+}
+.icon-flickr:before {
+	content: "\e609";
+}
+.icon-location:before {
+	content: "\e60a";
+}
+.icon-arrow-left:before {
+	content: "\e60b";
+}
+.icon-arrow-down:before {
+	content: "\e60c";
+}
+.icon-arrow-up:before {
+	content: "\e60d";
+}
+.icon-arrow-right:before {
+	content: "\e60e";
+}

@@ -1,0 +1,35 @@
+name: 'ValetParker'
+pygments: true
+markdown: kramdown
+paginate: 10
+version: 0.9
+
+seo:
+  author: 
+  description: 
+  keywords:
+
+contact:
+  phone: '
+  email: ''
+
+url:
+permalink: /:year/:title
+
+social:
+  facebook: 
+  twitter: ''
+  linkedin:
+
+google:
+  analytics : ''
+  verification : ''
+
+facebook:
+  admins : ''
+  api : ''
+
+assets:
+  img: '/assets/images/'
+  css: '/assets/stylesheets/'
+  js: '/assets/javascripts/'
