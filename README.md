@@ -19,7 +19,7 @@ You can edit the content of the site using github itself - the two main files to
 
 To edit a page of the site (namely the files mentioned above), navigate to the file in github above of this readme. Once you click on the file, a window will open and you will be able to see what is included in the file. On the top right corner you will see an *Edit* Button - Click *Edit* to make changes to the file and proceed to make your changes.
 
-<img src="/assets/images/_readme-img1.png" alt="Github Edit Button" />
+<img src="/assets/images/_readme-img1.png" alt="Github Edit Button" width="400px" />
 
 Once you are finished with your changes, at the bottom of the page you will see a box that says *Commit Changes*. Type in your update and and additional information you would like to make and then click on the green *Commit Changes* button. Committing the file will update the site, it may take upto 15 minutes to make the changes. 
 
