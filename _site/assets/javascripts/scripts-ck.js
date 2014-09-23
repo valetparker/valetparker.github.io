@@ -1,0 +1,1 @@
+jQuery(function(e){e.localScroll.defaults.axis="y",e.localScroll({target:"body",queue:!0,duration:1e3,hash:!0,onBefore:function(e,t,n){},onAfter:function(e,t){}})});
