@@ -16,7 +16,7 @@
             $.ajax({
               dataType: 'jsonp',
               url: 'http://getsimpleform.com/messages/ajax?form_api_token=af60a8af286576901847f4700d6e8456',
-              data: $("#form").serialize();
+              data: $("#form").serialize()
             }).done(function() {
               alert("Thank you! Your information was received!");
             });
