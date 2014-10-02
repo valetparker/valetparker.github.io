@@ -1,33 +1,19 @@
 name: 'ValetParker'
-pygments: true
+pygments: false
 markdown: kramdown
 paginate: 10
-version: 0.9
+version: 1.0
 
 seo:
-  author: 
-  description: 
-  keywords:
-
-contact:
-  phone: ''
-  email: ''
+  author: 'Charlie Gourlis'
+  description: ''
+  keywords: ''
 
 url:
 permalink: /:year/:title
 
-social:
-  facebook: 
-  twitter: ''
-  linkedin:
-
 google:
   analytics : ''
-  verification : ''
-
-facebook:
-  admins : ''
-  api : ''
 
 assets:
   img: '/assets/images/'
