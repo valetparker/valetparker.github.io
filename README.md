@@ -4,9 +4,9 @@ Last Updated: May 13, 2014
 
 ##Introduction
 
-This is the github repository for the ValetParker website found at <a href="http://valetparkerapp.com" target="_blank" title="ValetParker App Website">http://valetparkerapp.com</a>.
+This is the github repository for the ValetParker website found at <a href="http://valetparker.github.io" target="_blank" title="ValetParker App Website">http://valetparker.github.io</a>.
 
-This site was developed by Bivee LLC – <a href="http://www.bivee.co/" target="_blank" title="Bivee LLC">http://bivee.co</a>
+This site was developed by Bivee Inc – <a href="http://www.bivee.co/" target="_blank" title="Bivee LLC">http://bivee.co</a>
 
 ##Notes to Edit the Site
 
